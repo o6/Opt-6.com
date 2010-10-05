@@ -1,0 +1,113 @@
+/* General Styling */
+body {
+	background-color: #f3f3f3;
+	font: normal small/0pt "Gill Sans", "Gill Sans MS", Helvetica, sans-serif;
+	text-shadow: 0px 1px white;
+	text-align: center;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: inherit;
+}
+a:hover { text-decoration: underline; }
+
+/* Header */
+header p {
+	font-weight: bold;
+	font-size: 24pt;
+}
+
+/* About section */
+section#about {
+	width: 75%;
+	margin: auto;
+	line-height: 1.2em;
+}
+section#about p {
+	font-size: 12pt;
+	font-style: italic;
+}
+
+/* Apps section */
+section#apps {
+	width: 75%;
+	margin: auto;
+	text-shadow: 0px 1px #fff;
+	text-align: left;
+	display: block;
+	padding: 0px;
+}
+section#apps div.cell {
+	margin: 20px 20px 20px 0px;
+	width: 300px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background: #c2c2c2;
+    background: -moz-linear-gradient(top, #c2c2c2 #c8c8c8);
+    background: -webkit-gradient(linear, left top, left bottom, from(#c2c2c2), to(#c8c8c8));
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#c2c2c2', EndColorStr='#c8c8c8', GradientType=0);
+	border: 1px solid #999999;
+	float: left;
+}
+section#apps div.cell:hover {
+	text-decoration: none;
+	background: #b5b5b5;
+	background: -moz-linear-gradient(top, #b5b5b5 #bababa);
+	background: -webkit-gradient(linear, left top, left bottom, from(#b5b5b5), to(#bababa));
+	filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#b5b5b5', EndColorStr='#bababa', GradientType=0);
+}
+section#apps > a {
+	text-decoration: none;
+	display: block;
+}
+section#apps div.cell img.icon {
+	margin: 10px;
+	float: left;
+}
+section#apps div.cell div {
+	width: 300px;
+	font: inherit;
+	text-decoration: none;
+	color: #393a39;
+	font-size: 8pt;
+	font-weight: bold;
+}
+section#apps div.cell div.price {
+	color: #393a39;
+	font-size: 8pt;
+	margin: -5px 0px 0px 250px;
+	font-weight: bold;
+}
+section#apps div.cell div.name {
+	color: black;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 10pt;
+	line-height: normal;
+}
+section#apps div.cell div.description {
+	line-height: 10pt;
+	font-size: 10pt;
+	font-weight: normal;
+	margin-left: 79px;
+	width: 211px;
+	margin-bottom: 10px;
+	margin-top: -5px;
+}
+
+/* Footer */
+footer {
+	color: #6f6f6f;
+	width: 60%;
+	margin: auto;
+	display: inline;
+	float: none;
+}
+footer > p { padding-top: 10px; }
+footer span {
+	display: block;
+	margin-top: 1em;
+	line-height: 1.2em;
+}

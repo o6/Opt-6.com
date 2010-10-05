@@ -1,1 +1,40 @@
-staging test
+---
+title: "Home"
+---
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="/stylesheets/global.css">
+		<title>Opt-6 Products</title>
+	</head>
+	<body>
+		<header>
+			<p>Opt-6 Products</p>
+		</header>
+		<section id="about">
+			<p>Opt-6 Products is a small software company based in Denver, Colorado.</p>
+			<p>We specialize in creating applications that are both beautiful and functional.</p>
+			<p>Our platforms of choice are Mac and iOS.</p>
+		</section>
+		<section id="apps">
+			{% for app in site.apps %}
+			<div class="cell">
+				<img class="icon" src="{{ app.icon }}">
+				<div class="name"><a href="http://www.itunes.com/app/fivesquare">{{ app.name }}</a></div>
+				<div class="price"><a href="http://www.itunes.com/app/fivesquare">{{ app.price }}</a></div>
+				<div class="description"><p>{{ app.description }}</p></div>
+			</div>
+			{% endfor %}
+		</section>
+		<footer>
+			<p id="links">
+				<span>This website uses valid <a href="http://validator.w3.org/check?uri=referer" target="_blank">HTML5</a>. The source code is available on <a href="http://github.com/CarterA/Opt-6.com/" target="_blank">GitHub.</a></span>
+			</p>
+			<p id="copyright">
+				<span>Copyright &copy; Opt-6 Products, LLC, 2010. All rights reserved.</span>
+				<span>"Mac" and "iOS" are registered trademarks of Apple Inc.</span>
+			</p>
+		</footer>
+	</body>
+</html>

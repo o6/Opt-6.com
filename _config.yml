@@ -1,0 +1,10 @@
+exclude: ['Rakefile.rb', 'README.markdown', 'favicon.psd']
+apps:
+    - name: Five Square
+      icon: /images/fiveSquareIcon.png
+      price: "$1.99"
+      description: "Five Square is a completely new solitaire card game of strategy and skill. Combining the simplicity and elegance of a classic solitaire game with the challenge of complex strategic play, Five Square is one of the best card games available for your iOS device."
+    - name: "MathTasks"
+      icon: "/images/mathTasksIcon.png"
+      price: "Free"
+      description: "MathTasks is a revolutionary new comprehensive iPhone application that provides simple and quick access to the most commonly used formulas for Algebra and Geometry. Not only does it show you the formula, but it also provides built-in solvers for those formulas, making it the optimal math application for anyone to have.!"
