@@ -20,6 +20,7 @@ header p {
 
 /* About section */
 section#about {
+    display: block;
 	width: 75%;
 	margin: auto;
 	line-height: 1.2em;
@@ -37,8 +38,10 @@ section#apps {
 	text-align: left;
 	display: block;
 	padding: 0px;
+	clear: right;
 }
 section#apps div.cell {
+    display: block;
 	margin: 20px 20px 20px 0px;
 	width: 300px;
 	border-radius: 5px;

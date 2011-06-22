@@ -1,10 +1,18 @@
 exclude: ['Rakefile.rb', 'README.markdown', 'favicon.psd']
 apps:
-    - name: Five Square
-      icon: /images/fiveSquareIcon.png
-      price: "$1.99"
-      description: "Five Square is a completely new solitaire card game of strategy and skill. Combining the simplicity and elegance of a classic solitaire game with the challenge of complex strategic play, Five Square is one of the best card games available for your iOS device."
-    - name: "MathTasks"
-      icon: "/images/mathTasksIcon.png"
-      price: "Free"
-      description: "MathTasks is a revolutionary new comprehensive iPhone application that provides simple and quick access to the most commonly used formulas for Algebra and Geometry. Not only does it show you the formula, but it also provides built-in solvers for those formulas, making it the optimal math application for anyone to have.!"
+    ios:
+        - name: Five Square
+          icon: /images/fiveSquareIcon.png
+          price: "$1.99"
+          description: "Five Square is a completely new solitaire card game of strategy and skill. Combining the simplicity and elegance of a classic solitaire game with the challenge of complex strategic play, Five Square is one of the best card games available for your iOS device."
+        - name: "MathTasks"
+          icon: "/images/mathTasksIcon.png"
+          price: "Free"
+          description: "MathTasks is a revolutionary new comprehensive iPhone application that provides simple and quick access to the most commonly used formulas for Algebra and Geometry. Not only does it show you the formula, but it also provides built-in solvers for those formulas, making it the optimal math application for anyone to have.!"
+    
+    mac:
+        - name: Ghost
+          icon: /images/ghostIcon.png
+          price: "Free"
+          description: "There are lots of files on your computer that you can't see. Apple has conveniently hidden many system files from you, so that your computer doesn't look like an ugly, cluttered mess. However, they have not provided any easy way to create your own hidden files, or even to view theirs. Ghost provides a simple, user friendly way to do both of these things. Simply drag and drop a file or folder into the list, then uncheck (or check) its checkbox and the item will be instantly hidden or un-hidden."
+    
