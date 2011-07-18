@@ -3,25 +3,7 @@ title: "Home"
 layout: main
 ---
 {% include about.html %}
-<section id="apps">
-	<section id="ios">
-		{% for app in site.apps.ios %}
-		<div class="cell">
-			<img class="icon" src="{{ app.icon }}">
-			<div class="name"><a href="http://www.itunes.com/app/fivesquare">{{ app.name }}</a></div>
-			<div class="price"><a href="http://www.itunes.com/app/fivesquare">{{ app.price }}</a></div>
-			<div class="description"><p>{{ app.description }}</p></div>
-		</div>
-		{% endfor %}
-	</section>
-	<section>
-		{% for app in site.apps.mac %}
-		<div class="cell">
-			<img class="icon" src="{{ app.icon }}">
-			<div class="name"><a href="http://www.itunes.com/app/fivesquare">{{ app.name }}</a></div>
-			<div class="price"><a href="http://www.itunes.com/app/fivesquare">{{ app.price }}</a></div>
-			<div class="description"><p>{{ app.description }}</p></div>
-		</div>
-		{% endfor %}
-	</section>
-</section>
+<div id="fsIcon">
+    <img src="./images/fiveSquareIcon.png">
+    <h3>Five Square</h3>
+</div>
