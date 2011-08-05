@@ -22,12 +22,13 @@ header p {
 section#about {
     display: block;
 	width: 75%;
-	margin: auto;
-	line-height: 1.2em;
+	margin: 0px auto 25px auto;
+	line-height: 1.7em;
 }
 section#about p {
-	font-size: 12pt;
+	font-size: 18px;
 	font-style: italic;
+	margin: 0px;
 }
 
 /* Apps section */
@@ -104,13 +105,11 @@ section#apps div.cell div.description {
 footer {
 	color: #6f6f6f;
 	width: 60%;
-	margin: auto;
-	display: inline;
+	margin: 35px auto 0px auto;
+	display: block;
 	float: none;
 }
-footer > p { padding-top: 10px; }
 footer span {
 	display: block;
-	margin-top: 1em;
 	line-height: 1.2em;
 }
